@@ -21,7 +21,7 @@ class hax0r {
       
       // opens command prompt
       String path = "c:\\";
-      Runtime.getRuntime().exec(new String[] { "cmd.exe", "/C", "\"start; cd "+path+"\"" });
+      Runtime.getRuntime().exec(new String[] { "cmd.exe", "/C", "\"start; cd " + path + "\"" });
       
     	}
     	
